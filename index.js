@@ -11,7 +11,16 @@ dotenv.config()
 const app = express()
 const port = process.env.PORT || 3000
 
-app.use(cors())
+const corsOptions = {
+    origin: ["http://localhost:3000", "https://onnmed.vercel.app"],
+    allowedHeaders: ["Accept-Language", "Content-Type", "Authorization"],
+};
+
+app.use(cors(corsOptions));
+// Enable cors headers for options requests (requests the browser make as a pre-flight before delete&patch requests)
+// Without this any patch/delete would probably not work on any endpoint
+app.options("*", cors(corsOptions));
+
 app.use(express.json())
 app.use('/api/auth' , authRouter)
 app.use('/api/users' , userRouter)
