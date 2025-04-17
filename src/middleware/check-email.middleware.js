@@ -1,5 +1,6 @@
 import { User } from '../../database/models/user.model.js';
 import cors from "cors";
+import express from "express"
 
 const app = express();
 app.use(cors({
