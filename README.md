@@ -59,7 +59,7 @@ This project is a full-stack web application built as part of the NNMED Practica
    ```bash
    nodemon
    ```
-   The API will be available at `http://localhost:3000`.
+   The API will be available at `https://onnmed-backend.vercel.app/api/appointments`.
 
 ### Frontend Setup
 1. Clone the repository:
@@ -81,7 +81,7 @@ This project is a full-stack web application built as part of the NNMED Practica
    ```bash
    yarn dev
    ```
-   The frontend will be available at `http://localhost:3000`.
+   The frontend will be available at `https://onnmed.vercel.app`.
 
 ## Project Approach
 
