@@ -1,11 +1,5 @@
 import { User } from '../../database/models/user.model.js';
 import cors from "cors";
-import express from "express"
-
-const app = express();
-app.use(cors({
-  origin: ["https://onnmed.vercel.app", "http://localhost:3000"],
-}));
 
 export const checkEmail = async (req, res, next) => {
   const { email } = req.body;
