@@ -3,6 +3,7 @@ import { Appointment , AppointmentUser } from "../../../database/models/appointm
 import { User } from "../../../database/models/user.model.js";
 
 const checkPermission = (req, allowedTypes) => {
+  console.log("req" , req.body)
   const userType = req.body?.userType;
   if (!userType || !allowedTypes.includes(userType)) {
     return false;
