@@ -159,7 +159,7 @@ const updateAppointment = async (req, res) => {
 
 // Delete Appointment
 const deleteAppointment = async (req, res) => {
-  console.log("admin" , req.body)
+
   try {
     if (!checkPermission(req, ["admin"])) {
       return res.status(403).json({
