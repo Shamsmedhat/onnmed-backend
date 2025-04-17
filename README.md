@@ -2,6 +2,24 @@
 
 This project is a full-stack web application built as part of the NNMED Practical Test. It implements an **Appointment Management System** with distinct user roles (Admin, Doctor, Patient) and functionalities such as user authentication, appointment scheduling, and management. The application is designed with a clean, user-friendly interface and a robust backend to handle RESTful API operations.
 
+## Users
+
+  Admin:  `name`: "admin",
+          `email`: "admin@gmail.com",
+          `password`: "Admin@123",
+          `userType`: "admin"
+
+  Patient:`name`: "patient",
+          `email`: "patient@gmail.com",
+          `password`: "Patient@123",
+          `userType`: "patient"
+          
+  Doctor:`name`: "doctor",
+          `email`: "Doctor@gmail.com",
+          `password`: "doctor@123", s
+          `userType`: "doctor"
+
+        
 ## Tech Stack
 
 ### Backend
