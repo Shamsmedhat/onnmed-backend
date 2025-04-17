@@ -15,8 +15,8 @@ This project is a full-stack web application built as part of the NNMED Practica
           `userType`: "patient"
           
   Doctor:`name`: "doctor",
-          `email`: "Doctor@gmail.com",
-          `password`: "doctor@123", s
+          `email`: "doctor@gmail.com",
+          `password`: "Doctor@123", s
           `userType`: "doctor"
 
         
