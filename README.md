@@ -1,4 +1,4 @@
-# OnnMed Appointment Management System
+# Onnmed Appointment Management System
 
 This project is a full-stack web application built as part of the NNMED Practical Test. It implements an **Appointment Management System** with distinct user roles (Admin, Doctor, Patient) and functionalities such as user authentication, appointment scheduling, and management. The application is designed with a clean, user-friendly interface and a robust backend to handle RESTful API operations.
 
@@ -21,6 +21,7 @@ This project is a full-stack web application built as part of the NNMED Practica
 - **React (18)**: For building dynamic UI components.
 - **Tailwind CSS**: For styling and responsive design.
 - **Key Libraries**:
+  - `next-intl`: For internationalization and multi-language support.
   - `@fullcalendar/*`: For interactive calendar and appointment scheduling UI.
   - `@tanstack/react-query`: For efficient data fetching and state management.
   - `react-hook-form` & `@hookform/resolvers` with `zod`: For form handling and validation.
@@ -28,7 +29,7 @@ This project is a full-stack web application built as part of the NNMED Practica
   - `next-auth`: For authentication integration.
   - `lucide-react` & `react-icons`: For icons to enhance UI.
   - `sonner`: For toast notifications.
-  - `@radix-ui/*`: For accessible and customizable UI components.
+  - `@shadcn-ui/*`: For accessible and customizable UI components.
   - `date-fns`: For date manipulation and formatting.
 
 ## Project Setup Procedure
